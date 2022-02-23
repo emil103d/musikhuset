@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     colors: {
       blaa: "#030BA6",
+      roed: "#FF5851",
     },
     extend: {},
   },
