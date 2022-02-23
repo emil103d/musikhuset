@@ -5,6 +5,8 @@ module.exports = {
       blaa: "#030BA6",
       roed: "#FF5851",
       white: "#ffffff",
+      black: "#000000",
+      grey: "#E5E5E5",
     },
     extend: {
       fontFamily: {

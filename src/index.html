@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Starter Template</title>
     <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
 
   <body class="">
@@ -58,15 +61,84 @@
 
 
     <menu>
+      <!-- First sektion -->
       <section class="">
       <img class="z-0 relative" src="imgs/musikloftet-mellem-v2.jpg" alt="">
-        <div class="z-10 bg-white absolute">
-          <h1>
-            Musiklokaler til jeres jam sessions
+        <div class="z-10 bg-white lg:absolute bottom-0 left-0 lg:max-w-2xl p-10">
+          <h1 class="font-montserrat lg:text-6xl text-4xl uppercase">
+            Musiklokaler til jeres
           </h1>
-          <p>Find og book lokaler efter behov og størrelse </p>
+          <h1 class="font-montserrat lg:text-6xl text-4xl text-roed uppercase"> jam sessions</h1>
+          <p class="font-montserrat">Find og book lokaler efter behov og størrelse </p>
         </div>
+         <div class=" w-100% h-8 bg-blaa"></div>
       </section>
+
+      <!-- Sideskrift -->
+
+       <h1 class="fixed text-blaa lg:text-8xl overflow">MUSIK</h1>
+        <h1 class="fixed">LOFTET</h1>
+
+       <!-- Anden sektion -->
+      <section class="p-10 grid gap-4 grid-cols-5">
+        <div class="col-start-2 col-end-5">
+          <div>
+        <h2 class="font-montserrat lg:text-4xl text-2xl color-roed ">Book</h2>
+        <p>Musikloftet er 8 hyggelige øvelokaler på toppen af Prøvestenen i København. Øvelokalerne ligger i en gammel industribygning, som huser både kreative værksteder, atelierer og fotostudier. </p>
+        </div>
+      <button class="btn m-10 col-start-2"><a href="lokaler.html">Se loakler</a></button>
+      <div class="">
+        <div class=" w-80 h-40 bg-roed z-0 relative"></div>
+        <img class="z-10 relative w-70 -top-20 left-0 " src="imgs/mellem-lokale.jpg" alt="">
+      </div>
+      </div>
+      </section>
+
+
+        <!-- Trejde sektion -->
+        <section class="">
+          <div class="text-white m-10 w-100% h-auto bg-roed">
+            <h2 class="text-white text-3xl p-8 text-center">LET & HURTIG BOOKING</h2>
+         <div class="grid grid-cols-5">
+           <div class="col-start-2">
+           <img class="border-2 border-white rounded-full w-60 p-4 text-white" src="imgs/IconParkOutlineFind.svg" alt="">
+           <p class=" font-montserrat mb-10 text-lg">1. Find Lokaler</p>
+         </div>
+           <div class="col-start-4 row-start-2 row-end-3">
+           <img class="border-2 border-white rounded-full p-4 w-60 text-white" src="imgs/IconParkOutlineCalendar.svg" alt="">
+           <p class="font-montserrat mb-10 text-lg">2. Book lokale</p>
+         </div>
+           <div class="col-start-2 row-start-3">
+           <img class="border-2 border-white rounded-full p-4 w-60 text-white" src="imgs/FluentPayment20Regular (1).svg" alt="">
+           <p class="font-montserrat mb-10 text-lg">3. Betal </p>
+         </div>
+           <div class="col-start-4 row-start-4">
+           <img class="border-2 border-white rounded-full p-4 w-60 text-white" src="imgs/FluentPeopleCommunity28Filled.svg" alt="">
+           <p class="font-montserrat mb-10 text-lg">4. Rock out</p>
+         </div>
+         </div>
+          </div>
+        </section>
+
+      <!-- Fjerde sektion -->
+<section class="grid grid-cols-5">
+  <div class="bg-grey col-start-2 col-end-5 mb-10">
+  <div>
+  <h4 class="text-center font-montserrat uppercase pt-4 mt-8" >Testimonials</h4>
+  <h3 class="font-montserrat lg:text-4xl text-2xl color-roed text-center">Det fortæller vores kunder</h3>
+<div class="w-60 h-0.5 bg-blaa flex mr-auto ml-auto"></div>
+</div>
+<div>
+  <img class="w-1/5 mr-auto ml-auto" src="imgs/RiDoubleQuotesL.svg" alt="">
+  <p class="font-montserrat lg:text-xl text-md color-roed text-center mr-10 ml-10">Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager.
+oplagt for små bands/orkestre, der ikke har en trommeslager.  </p>
+  <div class="divider"></div>
+  <img class="w-40 h-40 mr-auto ml-auto rounded-full" src="imgs/leilani-angel-K84vnnzxmTQ-unsplash.jpg" alt="anmeldelse billede">
+  <h3 class="text-center font-montserrat lg:text-xl text-md uppercase pt-4 mt-8">Malcolm Jensen </h3>
+  <p class="font-montserrat lg:text-md text-sm color-roed text-center mr-10 ml-10 uppercase mb-10">Sanger</p>
+  </div>
+  </div>
+</section>
     </menu>
 
 
