@@ -1,19 +1,82 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="cyberpunk">
+<html lang="en" data-theme="emerald">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Starter Template</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tailwind Starter Template</title>
-  <link rel="stylesheet" href="tailwind.css" />
-</head>
+  <body class="">
+    <header>
+      <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl normal-case">daisyUI</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0">
+            <li><a>Item 1</a></li>
+            <li tabindex="0">
+              <a>
+                Parent
+                <svg
+                  class="fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+                  />
+                </svg>
+              </a>
+              <ul class="bg-base-100 p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <menu></menu>
+    <footer>
+      <div class=" w-100% h-8 bg-blaa"></div>
+      <footer class="footer bg-base-200 text-base-content p-10">
+        <div>
+        <img class="w-20" src="imgs/Musikloftet_logo1_symbol.svg" alt="">
+          </svg>
+          <p>Musikloftet på Bastionvej 2,<br />Prøvestenen, 2300 KBH S</p>
+          <p>Tlf: +45 22555512/p></p>
+          <p>info@musikloftet.dk</p>
+        </div>
+        <div>
+          <span class="footer-title">Musikloftet</span>
+          <a class="link link-hover">Om os</a>
+          <a class="link link-hover">Praktisk Information</a>
+          <a class="link link-hover">FAQ</a>
+          <a class="link link-hover">Kontakt os</a>
+        </div>
+        <div>
+          <span class="footer-title">Informationer</span>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </div>
+        <div>
+          <span class="footer-title">Følg med på...</span>
+          <div class="flex">
+            <img src="imgs/facebook.svg" alt="facebook" />
+            <img src="imgs/instagram.svg" alt="Instagram" />
+            <img src="imgs/linkedin.svg" alt="linkedin" />
+          </div>
+        </div>
+      </footer>
+    </footer>
 
-<body class="">
- 
-  <div class="test"></div>
-
-  <script type="module" src="index.js"></script>
-</body>
-
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
