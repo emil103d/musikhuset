@@ -29,7 +29,7 @@
       </ul> 
       </div>
 
-      <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+      <!-- <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
          <li><a href="lokaler.html">Lokaler & Priser</a></li>
         <li tabindex="0">
           <a class="justify-between">
@@ -39,10 +39,10 @@
          <li><a href="om_os.html">Om Musikhuset</a></li>
         </li>
         <li><a href="kontakt.html">Kontakt</a></li>
-      </ul>
+      </ul> -->
     </div>
      <!-- Descktop -->
-   <a href="index.html"> <img class="lg:w-20 sm:w-0" src="imgs/Musikloftet_logo1_symbol.svg" alt="" ></a>
+   <a href="index.html"> <img class="md:w-20 lg:block hidden" src="imgs/Musikloftet_logo1_symbol.svg" alt="" ></a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
@@ -75,12 +75,11 @@
       </section>
 
       <!-- Sideskrift -->
-       <h1 class="absolute text-blaa text-8xl rotate-90 top-full right-1/2">MUSIK</h1>
-        <h1 class="absolute text-blaa text-8xl rotate-90 top-full right-1/2">LOFTET</h1>
 
        <!-- Anden sektion -->
       <section class="pt-10 md:block grid gap-4 grid-cols-5">
-        <div class="md:grid sm:block col-start-2 md:gap-8 col-end-4 md:grid-cols-12">
+        <div class="md:grid sm:block col-start-2 md:gap-8 col-end-5 md:grid-cols-12">
+            <h1 class=" text-blaa text-8xl rotate-90 md:col-start-11 col-start-5 hidden md:grid">MUSIKLOFTET</h1>
           <div class="md:col-start-3 md:col-span-4">
         <h2 class="font-montserrat lg:text-4xl text-2xl color-blaa ">Book</h2>
         <p>Musikloftet er 8 hyggelige øvelokaler på toppen af Prøvestenen i København. Øvelokalerne ligger i en gammel industribygning, som huser både kreative værksteder, atelierer og fotostudier. </p>
@@ -98,21 +97,21 @@
         <section class="">
           <div class="text-white ml-10 mr-10 mb-10 w-100% h-auto bg-roed">
             <h2 class="text-white text-3xl p-8 text-center">LET & HURTIG BOOKING</h2>
-         <div class="grid grid-cols-5">
-           <div class="col-start-2 lg:col-start-2">
-           <img class="border-2 border-white rounded-full w-60 lg:w-40 p-4 text-white" src="imgs/IconParkOutlineFind.svg" alt="">
+         <div class="grid grid-cols-6">
+           <div class="col-start-2 lg:col-start-2 lg:row-start-2">
+           <img class="border-2 border-white rounded-full w-60 lg:w-24 p-4 text-white" src="imgs/IconParkOutlineFind.svg" alt="">
            <p class=" font-montserrat mb-10 text-lg">1. Find Lokaler</p>
          </div>
-           <div class="col-start-4 row-start-2 row-end-3 lg:col-start-3">
-           <img class="border-2 border-white rounded-full p-4 w-60 lg:w-40 text-white" src="imgs/IconParkOutlineCalendar.svg" alt="">
+           <div class="col-start-4 row-start-2  lg:row-start-2 row-end-3 lg:col-start-3">
+           <img class="border-2 border-white lg:w-24 rounded-full p-4 w-60 text-white" src="imgs/IconParkOutlineCalendar.svg" alt="">
            <p class="font-montserrat mb-10 text-lg">2. Book lokale</p>
          </div>
-           <div class="col-start-2 row-start-3 lg:col-start-4">
-           <img class="border-2 border-white rounded-full p-4 w-60 lg:w-40 text-white" src="imgs/FluentPayment20Regular (1).svg" alt="">
+           <div class="col-start-2 row-start-3 lg:row-start-2 lg:col-start-4">
+           <img class="border-2 border-white rounded-full p-4 w-60 lg:w-24 text-white" src="imgs/FluentPayment20Regular (1).svg" alt="">
            <p class="font-montserrat mb-10 text-lg">3. Betal </p>
          </div>
-           <div class="col-start-4 row-start-4 lg:col-start-5">
-           <img class="border-2 border-white rounded-full p-4 w-60 lg:w-40 text-white" src="imgs/FluentPeopleCommunity28Filled.svg" alt="">
+           <div class="col-start-4 row-start-4 lg:row-start-2 lg:col-start-5">
+           <img class="border-2 border-white rounded-full p-4 w-60 lg:w-24 text-white" src="imgs/FluentPeopleCommunity28Filled.svg" alt="">
            <p class="font-montserrat mb-10 text-lg">4. Rock out</p>
          </div>
          </div>
@@ -120,23 +119,49 @@
         </section>
 
       <!-- Fjerde sektion -->
-<section class="grid grid-cols-5">
-  <div class="bg-grey col-start-2 col-end-5 mb-10">
-  <div>
-  <h4 class="text-center font-montserrat uppercase pt-4 mt-8" >Testimonials</h4>
-  <h3 class="font-montserrat lg:text-4xl text-2xl color-roed text-center">Det fortæller vores kunder</h3>
-<div class="w-60 h-0.5 bg-blaa flex mr-auto ml-auto"></div>
+
+      <div>
+  <h4 class="text-center font-montserrat md:text-sm uppercase pt-4 mt-8" >Testimonials</h4>
+  <h3 class="font-montserrat md:text-md text-2xl color-roed text-center">Det fortæller vores kunder</h3>
+<div class="w-60 h-0.5 bg-blaa flex mr-auto ml-auto mb-10"></div>
 </div>
+<section class="grid  grid-cols-5 md:grid-cols-11 gap-4">
+  <div class="bg-grey col-start-2 col-end-5 mb-10">
 <div>
-  <img class="w-1/5 mr-auto ml-auto" src="imgs/RiDoubleQuotesL.svg" alt="">
-  <p class="font-montserrat lg:text-xl text-md color-roed text-center mr-10 ml-10">Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager.
+  <img class="w-1/5 mr-auto ml-auto md:w-20" src="imgs/RiDoubleQuotesL.svg" alt="">
+  <p class="font-montserrat md:text-sm text-md color-roed text-center mr-10 ml-10">Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager.
 oplagt for små bands/orkestre, der ikke har en trommeslager.  </p>
   <div class="divider"></div>
-  <img class="w-40 h-40 mr-auto ml-auto rounded-full" src="imgs/leilani-angel-K84vnnzxmTQ-unsplash.jpg" alt="anmeldelse billede">
+  <img class="w-20 h-20 mr-auto ml-auto rounded-full" src="imgs/leilani-angel-K84vnnzxmTQ-unsplash.jpg" alt="anmeldelse billede">
   <h3 class="text-center font-montserrat lg:text-xl text-md uppercase pt-4 mt-8">Malcolm Jensen </h3>
   <p class="font-montserrat lg:text-md text-sm color-roed text-center mr-10 ml-10 uppercase mb-10">Sanger</p>
   </div>
   </div>
+
+    <div class="hidden md:grid md:bg-grey md:col-start-5 md:col-end-8 md:mb-10">
+<div>
+  <img class="w-1/5 mr-auto ml-auto md:w-20" src="imgs/RiDoubleQuotesL.svg" alt="">
+  <p class="font-montserrat md:text-sm text-md color-roed text-center mr-10 ml-10">Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager.
+oplagt for små bands/orkestre, der ikke har en trommeslager.  </p>
+  <div class="divider"></div>
+  <img class="w-20 h-20 mr-auto ml-auto rounded-full" src="imgs/leilani-angel-K84vnnzxmTQ-unsplash.jpg" alt="anmeldelse billede">
+  <h3 class="text-center font-montserrat lg:text-xl text-md uppercase pt-4 mt-8">Malcolm Jensen </h3>
+  <p class="font-montserrat lg:text-md text-sm color-roed text-center mr-10 ml-10 uppercase mb-10">Sanger</p>
+  </div>
+  </div>
+
+    <div class="hidden md:grid md:bg-grey md:col-start-8 md:col-end-11 md:mb-10">
+<div>
+  <img class="w-1/5 mr-auto ml-auto md:w-20" src="imgs/RiDoubleQuotesL.svg" alt="">
+  <p class="font-montserrat md:text-sm text-md color-roed text-center mr-10 ml-10">Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager.
+oplagt for små bands/orkestre, der ikke har en trommeslager.  </p>
+  <div class="divider"></div>
+  <img class="w-20 h-20 mr-auto ml-auto rounded-full" src="imgs/leilani-angel-K84vnnzxmTQ-unsplash.jpg" alt="anmeldelse billede">
+  <h3 class="text-center font-montserrat lg:text-xl text-md uppercase pt-4 mt-8">Malcolm Jensen </h3>
+  <p class="font-montserrat lg:text-md text-sm color-roed text-center mr-10 ml-10 uppercase mb-10">Sanger</p>
+  </div>
+  </div>
+
 </section>
     </menu>
 
