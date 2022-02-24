@@ -73,9 +73,17 @@
       </section>
 
       <!-- Anden sektion -->
-      <section class="grid grid-cols-3">
+      <div class="text-sm breadcrumbs font-montserrat text-black mt-10 ml-10">
+  <ul>
+    <li><a href="index.html">Forside</a></li> 
+    <li><a href="lokaler.html">Lokaler</a></li> 
+  </ul>
+</div>
+
+
+      <section class="md:grid md:grid-cols-3 md:m-0 m-10">
         <div class="col-start-2">
-          <h2 class="font-montserrat lg:text-4xl text-2xl mt-5 text-center">Vores lokaler</h2>
+          <h2 class="font-montserrat lg:text-4xl text-2xl mt-5 text-center text-roed">Vores lokaler</h2>
         <p class="font-montserrat mt-5 text-md">Musikloftet har 8 hyggelige øvelokaler på øverste etage af en gammel industribygning på Prøvestenen i København.  
         </p>
         <p class="font-montserrat mb-2 text-md">Vi tilbyder tre typer lokaler, som alle er baggearslokaler: </p>
@@ -92,8 +100,8 @@
               </section>
 
         <!-- Tredje sektion -->
-        <section class="grid grid-cols-8 gap-5">
-          <h2 class="font-montserrat lg:text-4xl text-2xl mt-5 text-blaa text-center col-start-1 col-end-6">De tre typer lokaler </h2>
+        <section class="md:grid md:grid-cols-8 gap-5 md:m-0 m-10">
+          <h2 class="font-montserrat lg:text-4xl text-2xl mt-5 text-blaa text-center col-start-1 col-end-9">De tre typer lokaler </h2>
 
           <!-- Små lokaler -->
          <div class="col-start-2 col-span-2 grid grid-cols-4 mt-5 mb-5">
@@ -158,11 +166,12 @@
         </section>
 
         <!------------- Fjerde sektion ------------------->
-        <section class="grid grid-cols-11 gap-5">
+        <section class="md:grid md:grid-cols-11 md:gap-5">
           <h2 class="font-montserrat lg:text-4xl text-2xl mt-5 col-start-1 col-end-12 text-center">Alle lokaler</h2>
 
+          <div class= "">
         <!-- Lokale 1 -->
-        <div class="card w-96 bg-base-100 shadow-xl col-start-2 col-span-2">
+        <div id="singleview" class="card w-96 bg-base-100 shadow-xl col-start-2 col-span-2">
   <figure><div class="w-full carousel">
   <div id="slide1" class="relative w-full carousel-item">
     <img src="imgs/mellem-lokale-band-1.jpg" class="w-full"> 
@@ -238,7 +247,7 @@
   </div>
 </div></figure>
   <div class="card-body">
-    <h2 class="card-title font-montserrat text-md">Det lille hyggelige lokale</h2>
+    <h2 class="card-title font-montserrat text-md">Lilla luxury</h2>
     <p>Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager. </p>
      <p class="uppercase font-montserrat text-sm pt-5">Pris: 300kr./mnd</p> 
      <p class="uppercase font-montserrat text-sm">Areal: 10m2</p>
@@ -282,7 +291,7 @@
   </div>
 </div></figure>
   <div class="card-body">
-    <h2 class="card-title font-montserrat text-md">Det lille hyggelige lokale</h2>
+    <h2 class="card-title font-montserrat text-md">Det groovy lokale</h2>
     <p>Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager. </p>
      <p class="uppercase font-montserrat text-sm pt-5">Pris: 300kr./mnd</p> 
      <p class="uppercase font-montserrat text-sm">Areal: 10m2</p>
@@ -421,7 +430,7 @@
     </div>
   </div>
 </div>
-
+</div>
 
   </section>
     </menu>

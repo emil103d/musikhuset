@@ -13,3 +13,11 @@ function openMenu() {
     menuOpen = false;
   }
 }
+
+const singlelokale = document.querySelector("#singleview");
+
+singlelokale.addEventListener("click", funcSingleview);
+
+function funcSingleview() {
+  window.location.href = "single_view.html";
+}
