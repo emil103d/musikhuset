@@ -60,7 +60,7 @@
     </header>
 
 
-    <menu class="">
+    <menu class="max-w-screen-2xl">
       <section class="">
         <img class="z-0 relative" src="imgs/maps.png" alt="google maps">
           <div class="z-10  bg-grey/60 lg:absolute bottom-0 lg:left-20 lg:p-10 lg:pr-40 lg:pl-20 m-5 p-5">
@@ -93,19 +93,21 @@
           </div>
            <div class=" w-100% h-8 bg-blaa"></div>
         </section>
-        <h2 class="text-roed text-6xl m-5 py-5">Kontakt os</h2>
+        <h2 class="text-roed text-6xl m-5 py-5 md:mx-40">Kontakt os</h2>
         
         <!-- Skriv til os kasse -->
         
-        <section class=" bg-roed text-white m-5 p-5 grid gap-5 md:max-w-3xl md:pr-40 md:ml-40">
-        <h2 class="lg:text-4xl text-2xl">SKRIV TIL OS</h2>
-        <p>Fulde navn:</p><hr>
-        <p>Email:</p><hr>
-        <p>Tlf.:</p> <hr>
-        <p class="pt-10">Besked:</p> <hr class="mt-10">
+        <section class=" bg-roed text-white m-5 p-5 grid gap-5 md:max-w-3xl">
+        <h2 class="lg:text-4xl text-2xl md:pl-5 md:py-10">SKRIV TIL OS</h2>
+        <div class="md:grid md:grid-cols-2 gap-16 md:pl-5">
+          <p>Fulde navn:</p><hr class="md:col-start-1 md:-mt-16">
+        <p class="md:col-start-1">Email:</p><hr class="md:col-start-1 md:-mt-16">
+        <p class="md:col-start-1">Tlf.:</p> <hr class="md:col-start-1 md:-mt-16">
+        <p class="md:col-start-2 md:row-start-1">Besked:</p> <hr class="my-10 md:col-start-2">
         
         <button class=" rounded-sm bg-white text-blaa w-60">SEND OS DIN BESKED</button>
-      </section>
+      </div>
+    </section>
     </menu>
 
 
