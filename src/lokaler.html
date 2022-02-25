@@ -167,9 +167,33 @@
 
         <!------------- Fjerde sektion Web------------------->
         <div class=" hidden lg:block">
-        <section class="lg:grid lg:grid-cols-11 lg:gap-5 flex">
+        <section class="lg:grid lg:grid-cols-11 lg:gap-5 flex mb-10">
           <h2 class="font-montserrat lg:text-4xl text-2xl mt-5 col-start-1 col-end-12 text-center">Alle lokaler</h2>
-        <!-- Lokale 1 -->
+        <!-- Filter knapper -->
+          <div class="form-control col-start-5  mt-5 mb-5">
+  <div class="input-group">
+    <select class="select select-bordered">
+      <option disabled selected>Vælg størrelse </option>
+      <option>Størrelse</option>
+      <option>Lille</option>
+      <option>Mellem</option>
+        <option>Stort</option>
+    </select>
+  </div>
+</div>
+   <div class="form-control col-start-7 mt-5 mb-5">
+  <div class="input-group">
+    <select class="select select-bordered">
+      <option disabled selected>Vælg pris </option>
+      <option>Under 200</option>
+      <option>200-500</option>
+      <option>Over 500</option>
+        <option>Stort</option>
+    </select>
+  </div>
+</div>
+
+<!-- Lokale 1 -->
         <div id="singleview" class="card w-96 bg-base-100 shadow-xl col-start-2 col-span-2">
   <figure><div class="w-full carousel">
   <div id="slide1" class="relative w-full carousel-item">
@@ -434,7 +458,7 @@
   </div>
 
     <!------------- Fjerde sektion mobil ------------------->
-<section class="m-10">
+<section class="m-10 md:hidden">
    <h2 class="font-montserrat lg:text-4xl text-2xl mt-5 col-start-1 col-end-12 text-center text-blaa">Alle lokaler</h2>
   <div class="w-full carousel">
     <!-- Lokale 1 -->
